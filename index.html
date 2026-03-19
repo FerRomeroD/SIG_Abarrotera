@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Progreso SIG System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e0e0e0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background: #f0f0f0;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 8px 8px 20px #cbcbcb,
+                        -8px -8px 20px #ffffff;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        h1 {
+            color: #4a4a4a;
+        }
+        .card-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">Registros</div>
+            <p>Manage your records efficiently.</p>
+        </div>
+        <div class="card">
+            <div class="card-title">Dashboards</div>
+            <p>Visualize important data insights.</p>
+        </div>
+        <div class="card">
+            <div class="card-title">Reportes</div>
+            <p>Generate comprehensive reports.</p>
+        </div>
+    </div>
+</body>
+</html>
